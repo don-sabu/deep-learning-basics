@@ -22,7 +22,6 @@ model.fit(xtrain, ytrain)
 prediction = model.predict(xtest)
 mse = round(mean_squared_error(ytest, prediction),4)
 
-
 plt.scatter(xtrain, ytrain, label="Data Points")
 plt.plot(xtest, prediction, c='#FF5733', label="Regression Line")
 plt.title("Linear Regression")
