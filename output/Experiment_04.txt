@@ -1,0 +1,8 @@
+Metrics       Baseline    Xavier    Kaiming    Dropout    L1 L2
+----------  ----------  --------  ---------  ---------  -------
+Accuracy          0.46      0.46       0.47       0.37     0.10
+Loss              1.50      1.51       1.50       1.73     3.26
+Time Taken       29.60     29.39      29.42      31.68    41.06
+
+Configuration with Maximum Accuracy (0.47): Kaiming
+Configuration with Minimum Convergence Time (29.39): Xavier
