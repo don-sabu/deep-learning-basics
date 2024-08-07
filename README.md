@@ -5,4 +5,4 @@
 
 2. [Image Enhancement](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/Image_Enhancement.py) | [Dataset](https://github.com/don-sabu/deep-learning-basics/blob/main/dataset/komodo_dragon.jpg) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/Image_Engancement_output.png)
 
-2. [Image Enhancement](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/CIFAR10_using_ANN.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output]()
+2. [Image Enhancement](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/CIFAR10_using_ANN.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/Experiment_03.pdf)
