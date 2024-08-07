@@ -7,4 +7,4 @@
 
 3. [CIFAR-10 classification using ANN with different hyper parameters](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/CIFAR10_using_ANN.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/Experiment_03.pdf)
 
-4. [CIFAR-10 classification using ANN with different regularization and initialization](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/CIFAR10_using_ANN.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/Experiment_03.pdf)
+4. [CIFAR-10 classification using ANN with different regularization and initialization](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/CIFAR_10_Classification_with_ANN_Configurations.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/Experiment_03.pdf)
