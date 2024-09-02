@@ -24,7 +24,7 @@ for layer in vgg.layers:
 
 layer_2 = Flatten()(vgg.output)
 layer_3 = Dense(512, activation='relu')(layer_2)
-output = Dense(10, activation='sigmoid')(layer_3)
+output = Dense(10, activation='softmax')(layer_3)
 
 model = Model(inputs=vgg.input, outputs = output)
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
@@ -35,7 +35,7 @@ history = model.fit(
     epochs=5,
     validation_data=(xtest, ytest)
 )
-
+loss, accuracy = model.evaluate(xtest, ytest)
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
 ax1.plot(history.history['accuracy'], label='Training Accuracy')
@@ -54,6 +54,10 @@ plt.tight_layout()
 fig.suptitle('Fixed Feature Extractor', fontsize=20)
 fig.subplots_adjust(top=0.85)
 plt.show()
+
+print('Fixed Feature Extractor')
+print(f"Accuracy: {round(accuracy,4)}")
+print(f"Loss: {round(loss,4)}")
 
 vgg = VGG19(weights='imagenet',input_shape=(32,32,3), include_top=False)
 
@@ -97,3 +101,7 @@ plt.tight_layout()
 fig.suptitle('Fine Tuned Model', fontsize=20)
 fig.subplots_adjust(top=0.85)
 plt.show()
+
+print('Fine Tuned Model')
+print(f"Accuracy: {round(accuracy,4)}")
+print(f"Loss: {round(loss,4)}")
