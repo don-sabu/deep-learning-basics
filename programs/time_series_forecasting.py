@@ -71,3 +71,27 @@ plt.xlabel('Date')
 plt.ylabel('Close Price')
 plt.legend()
 plt.show()
+
+
+
+plt.figure(figsize=(15, 8))
+
+# Plot Training Data
+plt.plot(df_chg.index, df_chg['Close'], label='All Data', color='grey', alpha=0.5)
+
+# Plot Train Data
+plt.plot(train.index, train, label='Train', color='blue')
+
+# Plot True and Predicted Values
+plt.plot(test_dates[1:], y_test_inv, label='True Values', color='green', linestyle='--')
+plt.plot(test_dates[1:], y_pred_test_inv, label='Predicted Values', color='red', linestyle='--')
+
+# Add vertical line to indicate split date
+plt.axvline(x=split_date, color='black', linestyle='--', label='Split Date')
+
+# Add legends and labels
+plt.xlabel('Date')
+plt.ylabel('Close Price')
+plt.legend()
+plt.title("Train Data, True Values, and Predictions")
+plt.show()
