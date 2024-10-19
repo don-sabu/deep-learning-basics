@@ -12,3 +12,9 @@
 5. [MNIST Classification using CNN](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/MNIST_using_CNN.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/MNIST_Classification_using_CNN_Output.png)
 
 6. [MNIST Classification using VGG19](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/MNIST_Classification_using_VGG19.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/DL_Program_6_Output.pdf)
+
+7. [Time Series Forecasting on NIFTY-50]() | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/DL_Program_6_Output.pdf)
+
+8. [IMDB Review Classification using RNN](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/imdb_review_cclassification_rnn.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/DL_Program_6_Output.pdf)
+
+9. [IMDB Review Classification using LSTM-GRU](https://github.com/don-sabu/deep-learning-basics/blob/main/programs/imdb_lstm_gru.py) | [Dataset](https://placehold.jp/30/dd6699/ffffff/300x150.png?text=Inbuilt+Dataset) | [Output](https://github.com/don-sabu/deep-learning-basics/blob/main/output/imdb_classification.txt)
